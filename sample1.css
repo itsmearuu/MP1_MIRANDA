@@ -143,6 +143,7 @@ nav img{
 .row .right .descript a{
     background-color: #09593c;
     color: #eceaed;
+    border-color: #09593c;
 }
 .row .right .descript a:hover{
     transform: scale(1.05);
