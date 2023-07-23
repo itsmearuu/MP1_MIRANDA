@@ -300,6 +300,20 @@ input{
 .card .btn-details:hover{
     transform: scale(1.09);
 }
+.card .actions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+.actions i{
+    font-size: 25px;
+    transition: all .7s ease;
+    color: #eceaed;
+}
+.actions:hover{
+    transform: scale(1.08);
+}
 
 #s1:checked~.cards #slide4,
 #s2:checked~.cards #slide5,
