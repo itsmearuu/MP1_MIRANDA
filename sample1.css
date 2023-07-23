@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Belanosima', sans-serif;
 }
 html{
     scroll-behavior: smooth;
@@ -25,6 +26,9 @@ nav img{
     width: 100%;
     height: 100vh;
     overflow: hidden;
+}
+.carousel-caption h1, h3{
+    font-family: 'Monoton', cursive;
 }
 .search-bar {
     display: flex;
@@ -135,8 +139,11 @@ nav img{
 .row .right .descript{
     padding-left: 20px;
 }
+.row .right .descript h1{
+    font-family: 'Monoton', cursive;
+}
 .row .right .descript p{
-    font-size: 16px;
+    font-size: 22px;
     line-height: 26px;
     padding-bottom: 15px;
 }
@@ -144,6 +151,7 @@ nav img{
     background-color: #09593c;
     color: #eceaed;
     border-color: #09593c;
+    font-size: 22px;
 }
 .row .right .descript a:hover{
     transform: scale(1.05);
@@ -523,6 +531,10 @@ input{
     display: flex;
     align-items: center;
     justify-content: center;
+   
+}
+.footer-col p{
+    font-size: 18px;
 }
 .footer-col h4::before{
     content: '';
