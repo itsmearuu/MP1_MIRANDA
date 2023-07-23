@@ -27,9 +27,6 @@ nav img{
     height: 100vh;
     overflow: hidden;
 }
-.carousel-caption h1, h3{
-    font-family: 'Monoton', cursive;
-}
 .search-bar {
     display: flex;
     justify-content: center;
@@ -70,6 +67,13 @@ nav img{
     left: 50%;
     transform: translate(-50%, -50%);
     text-shadow: 0 0 10px #000000, 0 0 10px #000000;
+}
+.carousel .carousel-caption h1{
+    font-family: 'Monoton', cursive;
+    font-size: 48px;
+}
+.carousel .carousel-caption h3{
+    font-family: 'Monoton', cursive;
 }
 .carousel img{
     width: 100%;
