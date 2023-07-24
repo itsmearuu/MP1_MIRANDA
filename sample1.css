@@ -12,7 +12,7 @@ nav img{
 }
 /* navbar */
 .navbar {
-    opacity: .7;
+    opacity: .7; /* visibility of the navbar */
     background-color: #09593c; /* Transparent background */
     padding: 5px;
     transition: background-color 0.3s ease; /* Smooth transition for background color change */
@@ -111,8 +111,8 @@ nav img{
     background-size: 300% 300%;
     animation: color 12s ease-in-out infinite;
 }
-@keyframes color{
-    0%{
+@keyframes color{ /* @keyframes rule is used in conjunction with the animation property to apply the defined animation to an element. */
+    0%{ /* changes the color of the background */
         background-position: 0 50%;
     }
     50%{
@@ -162,7 +162,7 @@ nav img{
     background-color: #08231a;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 991px) {  /* when the browser attain the specific size the of the window it shows the responsiveness */
     .row .right .descript{
         padding-left: 0;
     }
@@ -312,7 +312,9 @@ input{
     color: #eceaed;
 }
 .actions:hover{
-    transform: scale(1.08);
+    transform: scale(1.08); /*  transform property with the value scale 
+                                is used to apply a scaling transformation to an element. It modifies the size of the element, 
+                                making it larger or smaller based on the scale factor provided. */
 }
 
 #s1:checked~.cards #slide4,
@@ -332,7 +334,7 @@ input{
 #s4:checked~.cards #slide3,
 #s5:checked~.cards #slide4{
     box-shadow: 0 20px 40px rgba(0, 0, 0, 45%);
-    transform: translate3d(-35%, 0, -120px);
+     transform: translate3d(-35%, 0, -120px); /* transform is used to apply transformations to an element. translate3d() function is particularly useful when working with 3D transformations, allowing elements to be positioned in three-dimensional space and create visually engaging effects.*/
     --current-color1: #eceaed;
     --corrente-color2: #404457;
 }
